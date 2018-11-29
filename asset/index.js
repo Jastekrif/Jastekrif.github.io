@@ -1,5 +1,5 @@
 $(function(){ 
-  var store = new Store('example', { remote: 'https://6b7fb1b3-7d74-4bdb-a4ec-f400eaf84b26-bluemix:1701ff7d6451dc4a31b0a33a3c57c4e406cd0676244e5f4d78e630e17c2ab54c@6b7fb1b3-7d74-4bdb-a4ec-f400eaf84b26-bluemix.cloudant.com/example', PouchDB: PouchDB });
+  var store = new Store('data', { remote: 'https://6b7fb1b3-7d74-4bdb-a4ec-f400eaf84b26-bluemix:1701ff7d6451dc4a31b0a33a3c57c4e406cd0676244e5f4d78e630e17c2ab54c@6b7fb1b3-7d74-4bdb-a4ec-f400eaf84b26-bluemix.cloudant.com/data', PouchDB: PouchDB });
   
 	$('#contactForm').submit(function(event) {
     event.preventDefault();
